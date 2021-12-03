@@ -18,7 +18,7 @@ spec:
         tier: frontend
     spec:
       containers:
-      - image: brainupgrade/request-logger:microservice
+      - image: mamathan/request-logger:microservice
         name: logger
         imagePullPolicy: Always
         env:
